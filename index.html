@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/145460/isolated/lists/d08a1157100d2e42f31b4a752e71c33b-ilustracao-da-maca.png" type="image/x-icon">
+    <title>Aulas</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://images.vexels.com/media/users/3/145460/isolated/lists/d08a1157100d2e42f31b4a752e71c33b-ilustracao-da-maca.png" width="50"></a> <button aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços e Pacotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+        <div class="carousel-indicators">
+            <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators"
+                type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1"
+                data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3"
+                data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="..." class="d-block w-100" src="https://i.postimg.cc/2S3RGgyP/4.jpg">
+                <div class="carousel-caption">
+                    <h5 class="animated fadeInDown" style="animation-delay: 1s">#Aprender</h5>
+                    <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Desperte o aprendiz interior que há em você! Junte-se a nós para explorar novos horizontes de conhecimento e descobrir o prazer das aulas enriquecedoras.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="https://i.postimg.cc/2S3RGgyP/4.jpg">
+                <div class="carousel-caption">
+                    <h5 class="animated fadeInDown" style="animation-delay: 1s">#Inspira</h5>
+                    <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Transforme sua curiosidade em conquistas tangíveis! Nossas aulas proporcionam o ambiente perfeito para cultivar suas paixões e desenvolver habilidades que moldarão seu futuro. 
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="https://i.postimg.cc/2S3RGgyP/4.jpg">
+                <div class="carousel-caption">
+                    <h5 class="animated fadeInDown" style="animation-delay: 1s">#Aula</h5>
+                    <p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Aprender nunca foi tão empolgante! Conecte-se às nossas aulas e mergulhe em um mundo de descobertas, desafios e realizações. Seu potencial está esperando para ser revelado!
+                    </p>
+                </div>
+            </div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
+            type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span
+                class="visually-hidden">Previous</span></button> <button class="carousel-control-next"
+            data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true"
+                class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="texto">
+                        <h3 class="titulo" id="sobre">Quem sou eu?</h3>
+                        <p>
+                            Sou Claide, uma apaixonada educadora de português com licenciatura em Letras e pós-graduação
+                            em Educação. Com [X] anos de experiência, destaco-me pelo ensino personalizado, adaptado a
+                            diferentes públicos, desde crianças até profissionais de negócios. Minhas aulas envolvem
+                            métodos inovadores, como jogos educativos e simulações, visando uma aprendizagem dinâmica e
+                            eficaz. Especializada em português para negócios e programas lúdicos para crianças,
+                            comprometo-me com o desenvolvimento contínuo, participando ativamente de workshops e
+                            conferências. Minha missão é capacitar os alunos a alcançarem fluência por meio de uma
+                            abordagem prática e inspiradora. Estou ansiosa para continuar impactando positivamente o
+                            aprendizado da língua portuguesa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <img width="100%" src="https://culturainglesamg.com.br/wp-content/uploads/2019/06/O-que-é-preciso-para-trabalhar-como-professor-de-inglês-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <h1 class="titulo text-center" id="servicos">Serviços Oferecidos</h1>
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="card m-2 col-md-4 col-12" style="width: 40vh;">
+                <img src="assets/sala-de-aula_1.png" class="p-5">
+                <div class="card-body">
+                    <h5 class="card-title">Aulas Individuais e em Grupo</h5>
+                    <p class="card-text">Oferecemos aulas tanto individuais quanto em grupos reduzidos para garantir uma
+                        experiência de aprendizado personalizada.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card m-2 col-md-4 col-12" style="width: 40vh;">
+                <img src="assets/sala-de-aula_1.png" class="p-5">
+                <div class="card-body">
+                    <h5 class="card-title">Modalidades Online e Presenciais</h5>
+                    <p class="card-text">A professora disponibiliza aulas online para maior flexibilidade, permitindo
+                        que os alunos aprendam no conforto de suas casas. Além disso, há a opção de aulas presenciais
+                        para quem prefere o contato direto.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card m-2 col-md-4 col-12" style="width: 40vh;">
+                <img src="assets/sala-de-aula_1.png" class="p-5">
+                <div class="card-body">
+                    <h5 class="card-title">Faixas Etárias Atendida</h5>
+                    <p class="card-text">As aulas são adaptadas para diferentes faixas etárias, abrangendo desde
+                        adolescentes até adultos. Cada curso é estruturado levando em consideração as necessidades
+                        específicas de cada grupo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mt-5">
+        <h1 class="titulo text-center" id="precos">Preços e Pacotes</h1>
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pacote Inicial - Descoberta da Língua</h5>
+                    <p class="card-text">5 aulas de 1 hora cada</p>
+                    <p class="card-text">R$ 250,00</p>
+                    <p class="card-text">Ideal para iniciantes que desejam explorar a língua portuguesa.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pacote Mensal - Aprendizado Contínuo</h5>
+                    <p class="card-text">10 aulas de 1 hora cada (2 aulas por semana)</p>
+                    <p class="card-text">R$ 450,00</p>
+                    <p class="card-text">Excelente para quem busca um comprometimento mensal constante.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Português para Negócios - Intensivo</h5>
+                    <p class="card-text">8 aulas de 1 hora cada</p>
+                    <p class="card-text">R$ 400,00</p>
+                    <p class="card-text">Focado em vocabulário e situações práticas no ambiente corporativo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- Card 4 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pacote Inicial - Descoberta da Língua</h5>
+                    <p class="card-text">5 aulas de 1 hora cada</p>
+                    <p class="card-text">R$ 250,00</p>
+                    <p class="card-text">Ideal para iniciantes que desejam explorar a língua portuguesa.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pacote Mensal - Aprendizado Contínuo</h5>
+                    <p class="card-text">10 aulas de 1 hora cada (2 aulas por semana)</p>
+                    <p class="card-text">R$ 450,00</p>
+                    <p class="card-text">Excelente para quem busca um comprometimento mensal constante.</p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card m-2" style="width: 40vh;">
+                <img src="assets/imagem2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Português para Negócios - Intensivo</h5>
+                    <p class="card-text">8 aulas de 1 hora cada</p>
+                    <p class="card-text">R$ 400,00</p>
+                    <p class="card-text">Focado em vocabulário e situações práticas no ambiente corporativo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <h1 class="titulo text-center" id="depoimentos">Depoimentos de Alunos</h1>
+        <div class="row text-center justify-content-center p-3">
+            <div class="card m-2" style="width: 38vh;">
+                <div class="card-up" style="background-color: #9d789b;"></div>
+                <div class="avatar mx-auto p-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                        class="rounded-circle img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h4 class="mb-4">Maria Smantha</h4>
+                    <hr />
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <p class="dark-grey-text mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-quote" viewBox="0 0 16 16">
+                            <path
+                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+                        </svg>
+                        "A aula de português foi simplesmente incrível! A professora demonstrou grande domínio
+                        do conteúdo, tornando a aprendizagem envolvente e fácil de entender. Estou ansiosa para
+                        as próximas aulas e agradeço pela qualidade do ensino proporcionado."
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 38vh;">
+                <div class="card-up" style="background-color: #9d789b;"></div>
+                <div class="avatar mx-auto p-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                        class="rounded-circle img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h4 class="mb-4">Ana Rodrigues</h4>
+                    <hr />
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <p class="dark-grey-text mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-quote" viewBox="0 0 16 16">
+                            <path
+                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+                        </svg>
+                        "A aula de português foi simplesmente incrível! A professora demonstrou grande domínio
+                        do conteúdo, tornando a aprendizagem envolvente e fácil de entender. Estou ansiosa para
+                        as próximas aulas e agradeço pela qualidade do ensino proporcionado."
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 38vh;">
+                <div class="card-up" style="background-color: #6d5b98;"></div>
+                <div class="avatar mx-auto p-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                        class="rounded-circle img-fluid" />
+                </div>
+                <div class="card-body">
+                    <h4 class="mb-4">João Oliveira</h4>
+                    <hr />
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <p class="dark-grey-text mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-quote" viewBox="0 0 16 16">
+                            <path
+                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+                        </svg>
+                        "A aula de português foi simplesmente incrível! A professora demonstrou grande domínio
+                        do conteúdo, tornando a aprendizagem envolvente e fácil de entender. Estou ansiosa para
+                        as próximas aulas e agradeço pela qualidade do ensino proporcionado."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-2 mt-5">
+        <h1 class="titulo text-center" id="galeria">Recursos Educacionais</h1>
+        <div class="row text-center justify-content-center">
+            <div class="card m-2" style="width: 40vh; min-width: 45px;">
+                <div class="card-body">
+                    <h5 class="card-title">Artigo: Estratégias de Estudo</h5>
+                    <p class="card-text">O português é uma das dez línguas mais faladas no mundo.</p>
+                    <a href="https://brasilescola.uol.com.br/portugues" class="btn btn-primary mt-2">Leia
+                        Mais</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 40vh; min-width: 45px;">
+                <div class="card-body">
+                    <h5 class="card-title">Dicas de Aprendizado</h5>
+                    <p class="card-text">Dicas para estudar para o ENEM, técnicas para seu aprendizado na língua
+                        Portuguesa.</p>
+                    <a href="https://brasilescola.uol.com.br/portugues" class="btn btn-primary">Leia
+                        Mais</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 40vh; min-width: 45px;">
+                <div class="card-body">
+                    <h5 class="card-title">Recursos de Português</h5>
+                    <p class="card-text">Matérias de português, instruções e aulas feitas por professores
+                        famosos.</p>
+                    <a href="https://brasilescola.uol.com.br/portugues" class="btn btn-primary mt-2">Leia
+                        Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h1 class="titulo text-center">Galeria de Fotos ou Vídeos</h1>
+        <div class="row justify-content-center p-5">
+            <div class="card m-2" style="width: 30rem;">
+                <img src="https://criadoresid.com/wp-content/uploads/2020/11/Captura-de-Tela-2020-11-07-às-20.09.02.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Noslen</h5>
+                    <p class="card-text">Português com Noslen</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ver Blog
+                    </button>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 30rem;">
+               <img src="https://media.licdn.com/dms/image/D4E03AQGb_ia497fLaA/profile-displayphoto-shrink_800_800/0/1684600402536?e=2147483647&v=beta&t=e9a-u8ic5TNXChsjqYmk54OxUA6XLv6yhIS4RkjAF6A" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Letícia</h5>
+                    <p class="card-text">Português com Letícia</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#leticiaModal">
+                        Ver Blog
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Galeria de video e imagens</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/nB8Hpc5yvIU?si=jiiNtXzV0hEsxwsK"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8iXiBgCnGv4?si=t6O0qconWlMAQCXn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="modal-body">
+                        <img style="display: block;-webkit-user-select: none;" width="560" height="315"
+                            src="https://escoladainteligencia.com.br/wp-content/uploads/2018/08/Voce-sabe-o-que-e-a-sala-de-aula-invertida.jpg">
+
+                        <img style="display: block;-webkit-user-select: none;" width="560" height="315"
+                            src="https://simulare.com.br/wp-content/uploads/como-usar-a-tecnologia-na-sala-de-aula-descubra-aqui.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="leticiaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Galeria de video e imagens</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PdIEvSSUP-g?si=P6wWuMTutuOoTDM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j7Ef7Yc2sB4?si=UmeUco-7cJg12L-b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="modal-body">
+                        <img style="display: block;-webkit-user-select: none;" width="560" height="315"
+                            src="https://escoladainteligencia.com.br/wp-content/uploads/2018/08/Voce-sabe-o-que-e-a-sala-de-aula-invertida.jpg">
+
+                        <img style="display: block;-webkit-user-select: none;" width="560" height="315"
+                            src="https://simulare.com.br/wp-content/uploads/como-usar-a-tecnologia-na-sala-de-aula-descubra-aqui.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-3" id="contato">
+        <h1 class="titulo text-center mt-5">Contatos</h1>
+        <form action="" method="POST" data-form>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required />
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required placeholder="Digite um comentário"></textarea>
+            <div style="display: flex; align-items: center;">
+                <input type="checkbox" id="terms" name="terms" class="form-check-input form-check-sm" required>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Termos de Uso
+                </button>
+            </div>
+            <button type="submit" data-button id="form-button">Enviar</button>
+        </form>
+
+        <div class="toast" id="toast">Mensagem enviada com sucesso!</div>
+    </section>
+
+    <section>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel1">Termos de Uso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <h2><span style="color: rgb(68, 68, 68);">1. Termos</span></h2>
+                        <p><span style="color: rgb(68, 68, 68);">Ao acessar ao site <a href=""></a>, concorda em
+                                cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e
+                                concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se
+                                você não concordar com algum desses termos, está proibido de usar ou acessar este
+                                site. Os materiais contidos neste site são protegidos pelas leis de direitos
+                                autorais e marcas comerciais aplicáveis.</span></p>
+                        <h2><span style="color: rgb(68, 68, 68);">2. Uso de Licença</span></h2>
+                        <p><span style="color: rgb(68, 68, 68);">É concedida permissão para baixar temporariamente
+                                uma cópia dos materiais (informações ou software) no site , apenas para visualização
+                                transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma
+                                transferência de título e, sob esta licença, você não pode:&nbsp;</span></p>
+                        <ol>
+                            <li><span style="color: rgb(68, 68, 68);">modificar ou copiar os materiais;&nbsp;</span>
+                            </li>
+                            <li><span style="color: rgb(68, 68, 68);">usar os materiais para qualquer finalidade
+                                    comercial ou para exibição pública (comercial ou não comercial);&nbsp;</span>
+                            </li>
+                            <li><span style="color: rgb(68, 68, 68);">tentar descompilar ou fazer engenharia reversa
+                                    de qualquer software contido no site ;&nbsp;</span></li>
+                            <li><span style="color: rgb(68, 68, 68);">remover quaisquer direitos autorais ou outras
+                                    notações de propriedade dos materiais; ou&nbsp;</span></li>
+                            <li><span style="color: rgb(68, 68, 68);">transferir os materiais para outra pessoa ou
+                                    'espelhe' os materiais em qualquer outro servidor.</span></li>
+                        </ol>
+                        <p><span style="color: rgb(68, 68, 68);">Esta licença será automaticamente rescindida se
+                                você violar alguma dessas restrições e poderá ser rescindida por a qualquer momento.
+                                Ao encerrar a visualização desses materiais ou após o término desta licença, você
+                                deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou
+                                impresso.</span></p>
+                        <h2><span style="color: rgb(68, 68, 68);">3. Isenção de responsabilidade</span></h2>
+                        <ol>
+                            <li><span style="color: rgb(68, 68, 68);">Os materiais no site da são fornecidos 'como
+                                    estão'. não oferece garantias, expressas ou implícitas, e, por este meio, isenta
+                                    e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas
+                                    ou condições de comercialização, adequação a um fim específico ou não violação
+                                    de propriedade intelectual ou outra violação de direitos.</span></li>
+                            <li><span style="color: rgb(68, 68, 68);">Além disso, o não garante ou faz qualquer
+                                    representação relativa à precisão, aos resultados prováveis ​​ou à
+                                    confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a
+                                    esses materiais ou em sites vinculados a este site.</span></li>
+                        </ol>
+                        <h2><span style="color: rgb(68, 68, 68);">4. Limitações</span></h2>
+                        <p><span style="color: rgb(68, 68, 68);">Em nenhum caso o ou seus fornecedores serão
+                                responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos por perda de
+                                dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da
+                                incapacidade de usar os materiais em , mesmo que ou um representante autorizado da
+                                tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como
+                                algumas jurisdições não permitem limitações em garantias implícitas, ou limitações
+                                de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem
+                                não se aplicar a você.</span></p>
+                        <h2><span style="color: rgb(68, 68, 68);">5. Precisão dos materiais</span></h2>
+                        <p><span style="color: rgb(68, 68, 68);">Os materiais exibidos no site da podem incluir
+                                erros técnicos, tipográficos ou fotográficos. não garante que qualquer material em
+                                seu site seja preciso, completo ou atual. pode fazer alterações nos materiais
+                                contidos em seu site a qualquer momento, sem aviso prévio. No entanto, não se
+                                compromete a atualizar os materiais.</span></p>
+                        <h2><span style="color: rgb(68, 68, 68);">6. Links</span></h2>
+                        <p><span style="color: rgb(68, 68, 68);">O não analisou todos os sites vinculados ao seu
+                                site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de
+                                qualquer link não implica endosso por do site. O uso de qualquer site vinculado é
+                                por conta e risco do usuário.</span></p>
+                        <p><br></p>
+                        <h3><span style="color: rgb(68, 68, 68);">Modificações</span></h3>
+                        <p><span style="color: rgb(68, 68, 68);">O pode revisar estes termos de serviço do site a
+                                qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar
+                                vinculado à versão atual desses termos de serviço.</span></p>
+                        <h3><span style="color: rgb(68, 68, 68);">Lei aplicável</span></h3>
+                        <p><span style="color: rgb(68, 68, 68);">Estes termos e condições são regidos e
+                                interpretados de acordo com as leis do e você se submete irrevogavelmente à
+                                jurisdição exclusiva dos tribunais naquele estado ou localidade.</span></p>
+                    </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-7">
+                    <div class="single-box">
+                        <h2>Aula Particular de Reforço</h2>
+                        <p>"As aulas de reforço no Sul Fluminense foram incríveis! A didática do professor é
+                            simplesmente a melhor. Aprendizado eficiente com qualidade."</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-5">
+                    <div class="single-box">
+                        <h2>Reforço</h2>
+                        <p>Receba promoções exclusivas, nos acompanhe nas redes sociais.</p>
+                        <h2>Siga-nos</h2>
+                        <p class="socials">
+                            <a href="https://www.facebook.com/?locale=pt_BR"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.whatsapp.com/?lang=pt_BR"><i class="fa fa-whatsapp"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>
